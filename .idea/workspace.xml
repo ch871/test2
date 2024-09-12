@@ -4,21 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe7e3b66-f481-4186-9e51-932256c82d94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pilots_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json_from_api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/aircrapt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/pilot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reposetory/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/__init__.py" afterDir="false" />
+    <list default="true" id="fe7e3b66-f481-4186-9e51-932256c82d94" name="Changes" comment="createt files and models">
+      <change afterPath="$PROJECT_DIR$/api/wather_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json_from_api/airecrafts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json_from_api/locations.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json_from_api/pilots.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json_from_api/targets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json_from_api/wather.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/mission.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/target.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/wather.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/aircrapt.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/aircrapt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/pilot.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/pilot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reposetory/csv_reposetory.py" beforeDir="false" afterPath="$PROJECT_DIR$/reposetory/csv_reposetory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reposetory/json_reposetory.py" beforeDir="false" afterPath="$PROJECT_DIR$/reposetory/json_reposetory.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +40,16 @@
   "associatedIndex": 3
 }]]></component>
   <component name="ProjectId" id="2lxalj9NOSd8fVDYncKBk9eKDUd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.csv_reposetory.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
@@ -91,6 +95,19 @@
       <option name="presentableId" value="Default" />
       <updated>1726124334354</updated>
     </task>
+    <task id="LOCAL-00001" summary="createt files and models">
+      <option name="closed" value="true" />
+      <created>1726127660755</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726127660755</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="createt files and models" />
+    <option name="LAST_COMMIT_MESSAGE" value="createt files and models" />
   </component>
 </project>
